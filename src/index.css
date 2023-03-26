@@ -1,5 +1,8 @@
 @import-normalize; /* bring in normalize.css styles */
-@import './components/Feedback/Feedback.module';
+@import './components/FeedbackOptions/FeedbackOptions.module';
+@import './components/Notification/Notification.module';
+@import './components/Section/Section.module';
+@import './components/Statistics/Statistics.module';
 
 body {
   margin: 0;

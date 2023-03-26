@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.button {
+    width: 80px;
+    height: 30px;
+    background-color: pink;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+}
+
+.button:hover {
+    background-color: antiquewhite;
+    color: pink;
+    border-color: pink;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
