@@ -11,7 +11,7 @@ const FeedbackOptions = props => {
           <button
             key={option.id}
             label={option.label.toLowerCase()}
-            onClick={props.onLeaveFeedback}
+            onClick={() => props.onLeaveFeedback(option.label.toLowerCase())}
             type="button"
             className={css.button}>
             {option.label}
